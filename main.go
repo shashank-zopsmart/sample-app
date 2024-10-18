@@ -16,7 +16,9 @@ func main() {
 	fmt.Println(string(op), err)
 
 	app.GET("/", func(c *gofr.Context) (interface{}, error) {
-		return "ok", nil
+		op, err := exec.Command("docker", "ps").CombinedOutput()
+
+		return string(op), err
 	})
 
 	app.Run()

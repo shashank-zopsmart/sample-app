@@ -1,0 +1,21 @@
+{
+  "serviceId": "59a6f2af-008d-43ca-87f2-49f5427fca7c",
+  "serviceName": "test-service",
+  "serviceCredentials": {
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "client_email": "h5piznb6d2o34hw0@raramuri-tech.iam.gserviceaccount.com",
+    "client_id": "110353663069206409648",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/h5piznb6d2o34hw0%40raramuri-tech.iam.gserviceaccount.com",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAYww2aS5h6B0C\nnTLgIDsa9I1JAsObC+vdjeZAeyFOL4Nsu5tUOuZaOvusqT6GQ9uYq+5YLztakh04\nhzVc7+67NXvkwK+vMjz9gcBf3NgIlxU1dF/yxV2FXkmCwRacKrxhVEgy8IWmO2rC\n3WKKb16AatJIVAD2G1Dea1ZMx2rBhgRECXQi/O52QVd3CzHeg0wyevkmIn2QiLfj\n3Xa0m3/R7Z844Re1OG8i6HLxCkaSiVHHjJxYE+yjsT7EZ840XyXjyPVxapCs815B\nj0evnwvzdoXNz5L3eqR8FnzSM92cMKI0G30nOwjmX+7uceZbcBfzdQWl+vPJfvU2\nGmJ0kI99AgMBAAECggEAPiF+ty++v/XDMK3t2T3veKQT4MlYvIDcGoASJS7esa5c\nhkgMQOaIsAkucDN0Ms5FZAfagHY4d+aKM1BPJoWCFsmOCnFEC5Nw6Pn3U74xsoyA\nV/QObIvayRCLMwQCtkqC7ffXHURaFTZJI0d15HlVDqnw4VTnvpNRyZLmmwMn8fkz\nlfFnyva9zUfGkfVPUDVFU3ra5rvqlGtaSV5mg5xis6nd0pEHieQwKjKiG7IKu7vu\nBY9P4d4FKR4y+sNMvC9qMmfmtVa9x4HklgVLLSPis/U5grYoOf9zvoLiEUcuuDph\n86irq8P/uwU0hd1elXu0kNG6VurOVZ137CeAU+G/DQKBgQDiiVTNTsxneWYJou4Q\nt8SUHGPRk9Tm5CagOGqkp8ruWFb80JjGnpS9AupwjXMEpvbJqvTH8lHQ7vx90p0M\nBqQSwK3JQxkMGxNrzd/zkYBOxhPJsdnPzN9QpZeWOJf4sv/bUMT+uWspDfRvuxtF\nwLIQLxWbyf+KKNYvRrX7gACIzwKBgQDZaK/EsCOA2uXUMBz4Do8kKX1FkrqHRZW4\nJ8gFr3ODpja2MLSqm5VvQbd9PQp2HV+WsWAEFnABCKTiH2y8EIfSXkOFhuyXkZm+\nd3v7JoN4wVmfC233tQfmN6OBtcOdmnKuyx2CHN+RepJ5UkFxXIguS/u1eOHjYAw9\nVXLKN8zd8wKBgFOPcJZikIdCgl7fmIzWHE69whwWOZwJYC4NYVjnA7WzJDMRBqmM\n6TRnFO77XgfDRpjQ1IXEXmWBIeWPgJplALRiGjh45Y5PlnRXdlozu25TJg1p6vv5\niA4JZsbkjToRXMsbGe8TmfGE0js8eyzZjVTm6UOT2QyvT4IUxR/F8WyFAoGARxc6\nUoCeO2ZYvNe2wU5RdCu08OkX4V/Zo0wu1d0XUrcpMM4gZaFWbfj5PRSWtSTJuwbp\nNKz5lvzynZZVAfIN17ZHMgR6nN1ZfrSnb+qaFwRyf9VG8jbaDGepKaL8Ai8czRdR\n4Nf8Kx//gXhqOd1eEnV6K08J3kXr+qpUTNeOQA0CgYEAh85OxvaLTIFIQubbSzGI\nRFu9G8vuguKDg18J+RSMI11dyU8/iH+SwZxwxohrcVzlTQmIYSCdlL3OWbdmNCNk\nEB9B6LAqnCUbIb2A/4kNKrRUW8iLdf4jqStBpzRAzTEycjAjSfAUHiD1mlVrYpey\ny68KkNpNNLXf43quOf9Pgvw=\n-----END PRIVATE KEY-----\n",
+    "private_key_id": "e75171b3bbd3a0b4abaf87b73747f4e46e0e23fa",
+    "project_id": "raramuri-tech",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "type": "service_account",
+    "universe_domain": "googleapis.com"
+  },
+  "region": "us-central1",
+  "repository": "gofr-dev",
+  "cloudProvider": "gcp",
+  "registry": "kops-dev"
+}

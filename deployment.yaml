@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-service-dind
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: go-service-dind
+  template:
+    metadata:
+      labels:
+        app: go-service-dind
+    spec:
+      containers:
+        - name: go-service
+          image: sample-app:v1.2.0
+          securityContext:
+            privileged: true  # Required for DinD
+          env:
+            - name: DOCKER_TLS_CERTDIR
+              value: ""
+          ports:
+            - containerPort: 8080  # Expose the port your Go service is running on
+          volumeMounts:
+            - name: docker-graph-storage
+              mountPath: /var/lib/docker
+      volumes:
+        - name: docker-graph-storage
+          emptyDir: {}  # Use an emptyDir volume for Docker's storage
